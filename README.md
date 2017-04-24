@@ -1,2 +1,2 @@
-# SlayerFactory
-# The place where school children become my slaves
+# SlaveFactory
+# The place where some folks become my slaves
