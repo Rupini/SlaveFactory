@@ -6,7 +6,7 @@ namespace TutorApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi Nigga!");
+            Console.WriteLine("pidorpidor");
             Console.ReadLine();
         }
     }
