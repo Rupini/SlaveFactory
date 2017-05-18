@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TutorApplication.Launcher</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TutorApplication\ArrayGenerator.cs" />
+    <Compile Include="TutorApplication\ITask.cs" />
+    <Compile Include="TutorApplication\Task1Part2.cs" />
+    <Compile Include="TutorApplication\Task1Part1.cs" />
     <Compile Include="TutorApplication\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
