@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="TutorApplication\ArrayGenerator.cs" />
     <Compile Include="TutorApplication\ITask.cs" />
+    <Compile Include="TutorApplication\Task1Part4.cs" />
+    <Compile Include="TutorApplication\Task1Part3.cs" />
     <Compile Include="TutorApplication\Task1Part2.cs" />
     <Compile Include="TutorApplication\Task1Part1.cs" />
     <Compile Include="TutorApplication\Launcher.cs" />
