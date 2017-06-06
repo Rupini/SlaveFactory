@@ -48,7 +48,22 @@
   <ItemGroup>
     <Compile Include="TutorApplication\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorApplication\Task2API\BodyRegion.cs" />
+    <Compile Include="TutorApplication\Task2API\IArbiterDecision.cs" />
+    <Compile Include="TutorApplication\Task2API\IAttacker.cs" />
+    <Compile Include="TutorApplication\Task2API\IBlocker.cs" />
+    <Compile Include="TutorApplication\Task2API\IDamage.cs" />
     <Compile Include="TutorApplication\Task2API\IDamageProvider.cs" />
+    <Compile Include="TutorApplication\Task2API\IDamageTarget.cs" />
+    <Compile Include="TutorApplication\Task2API\IFightArbiter.cs" />
+    <Compile Include="TutorApplication\Task2API\IFighter.cs" />
+    <Compile Include="TutorApplication\Task2API\IFightProcess.cs" />
+    <Compile Include="TutorApplication\Task2API\IFightRule.cs" />
+    <Compile Include="TutorApplication\Task2API\IFightState.cs" />
+    <Compile Include="TutorApplication\Task2API\IStat.cs" />
+    <Compile Include="TutorApplication\Task2API\IStatContainer.cs" />
+    <Compile Include="TutorApplication\Task2API\ITurnStateGenerator.cs" />
+    <Compile Include="TutorApplication\Task2API\StatType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
