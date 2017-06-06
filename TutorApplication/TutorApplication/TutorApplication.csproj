@@ -46,13 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TutorApplication\ArrayGenerator.cs" />
-    <Compile Include="TutorApplication\ITask.cs" />
-    <Compile Include="TutorApplication\Task1Part4.cs" />
-    <Compile Include="TutorApplication\Task1Part3.cs" />
-    <Compile Include="TutorApplication\Task1Part2.cs" />
-    <Compile Include="TutorApplication\Task1Part1.cs" />
-    <Compile Include="TutorApplication\Launcher.cs" />
+    <Compile Include="TutorApplication\Task1\ArrayGenerator.cs" />
+    <Compile Include="TutorApplication\Task1\ITask.cs" />
+    <Compile Include="TutorApplication\Task2\Damage.cs" />
+    <Compile Include="TutorApplication\Task2\IAttackProvider.cs" />
+    <Compile Include="TutorApplication\Task2\IAttackTarget.cs" />
+    <Compile Include="TutorApplication\Task2\Persona.cs" />
+    <Compile Include="TutorApplication\Task2\PersonaStats.cs" />
+    <Compile Include="TutorApplication\Task1\Task1Part4.cs" />
+    <Compile Include="TutorApplication\Task1\Task1Part3.cs" />
+    <Compile Include="TutorApplication\Task1\Task1Part2.cs" />
+    <Compile Include="TutorApplication\Task1\Task1Part1.cs" />
+    <Compile Include="TutorApplication\Task1\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
