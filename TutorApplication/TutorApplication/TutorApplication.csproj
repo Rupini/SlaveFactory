@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TutorApplication</RootNamespace>
     <AssemblyName>TutorApplication</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,8 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TutorApplication\Game\ArbiterDecision.cs" />
+    <Compile Include="TutorApplication\Game\ConcoleWriter.cs" />
+    <Compile Include="TutorApplication\Game\Damage.cs" />
+    <Compile Include="TutorApplication\Game\FightArbiter.cs" />
+    <Compile Include="TutorApplication\Game\Fighter.cs" />
+    <Compile Include="TutorApplication\Game\FightProcess.cs" />
+    <Compile Include="TutorApplication\Game\Game.cs" />
+    <Compile Include="TutorApplication\Game\IAttackRegionSelector.cs" />
+    <Compile Include="TutorApplication\Game\IBlockRegionSelector.cs" />
+    <Compile Include="TutorApplication\Game\FightRuleSetRandomStatValue.cs" />
     <Compile Include="TutorApplication\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorApplication\Game\RandomAttackRegionSelector.cs" />
+    <Compile Include="TutorApplication\Game\RandomBlockRegionSelector.cs" />
+    <Compile Include="TutorApplication\Game\RandomSelector.cs" />
+    <Compile Include="TutorApplication\Game\Stat.cs" />
+    <Compile Include="TutorApplication\Game\StatContainer.cs" />
+    <Compile Include="TutorApplication\Game\State.cs" />
     <Compile Include="TutorApplication\Task2API\BodyRegion.cs" />
     <Compile Include="TutorApplication\Task2API\IArbiterDecision.cs" />
     <Compile Include="TutorApplication\Task2API\IAttacker.cs" />
